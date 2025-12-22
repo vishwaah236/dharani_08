@@ -6,10 +6,13 @@ const Navbar = () => {
     <div>
         <nav>
             <ul className='Navbar'>
-               <li><Link to="/">Home</Link></li>
-               <li><Link to="/about">About</Link></li>
-               <li><Link to="/contact">Contact</Link></li>
-               <li><Link to="/service">Service</Link></li>
+               <li><Link className='Link' to="/">Home</Link></li>
+               <li><Link classNmae='Link' to="/about">About</Link></li>
+               <li><Link className='link' to="/contact">Contact</Link></li>
+               <li><Link className='link' to="/service">Service</Link></li>
+               <li><Link className='Link' to="/UseState">UseState</Link></li>
+               <li><Link className='Link' to="/UseEffect">UseEffect</Link></li>
+
 
 
             </ul>
